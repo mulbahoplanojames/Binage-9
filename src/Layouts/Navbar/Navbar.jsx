@@ -28,7 +28,7 @@ const Navbar = () => {
   };
 
   const navLinksStyle = {
-    top: isMenuVisible ? "3.7rem" : "-300px",
+    top: isMenuVisible ? "3.7rem" : "-400px",
   };
 
   return (
