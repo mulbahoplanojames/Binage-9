@@ -51,3 +51,12 @@
 .link {
   text-decoration: none;
 }
+
+@media screen and (max-width: 767px) {
+  .products {
+    padding: 0px 3%;
+  }
+  .Card_wripper {
+    width: 330px;
+  }
+}
