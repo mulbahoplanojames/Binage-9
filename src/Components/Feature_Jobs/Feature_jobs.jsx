@@ -19,21 +19,23 @@ const Title = styled.h1`
 const Feature_jobs = () => {
   return (
     <>
-      <Title>Featured Jobs</Title>
+      <div className={Styles.feature_jod}>
+        <Title>Featured Jobs</Title>
 
-      <div className={Styles.jobs_card_wripper}>
-        <Job_card
-          job_name={"Free Lancing"}
-          job_descriptions={"Build work for clients"}
-        />
-        <Job_card
-          job_name={"Software Engineering"}
-          job_descriptions={"Create Real world projects"}
-        />
-        <Job_card
-          job_name={"App development"}
-          job_descriptions={"Create real world Apps"}
-        />
+        <div className={Styles.jobs_card_wripper}>
+          <Job_card
+            job_name={"Free Lancing"}
+            job_descriptions={"Build work for clients"}
+          />
+          <Job_card
+            job_name={"Software Engineering"}
+            job_descriptions={"Create Real world projects"}
+          />
+          <Job_card
+            job_name={"App development"}
+            job_descriptions={"Create real world Apps"}
+          />
+        </div>
       </div>
     </>
   );
