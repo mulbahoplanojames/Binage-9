@@ -7,12 +7,17 @@ import Team2 from "/src/assets/Images/stephen.jpg";
 import Team3 from "/src/assets/Images/wilma.jpg";
 import Team4 from "/src/assets/Images/Img5.jpg";
 
-const Title = styled.h1({
-  textAlign: "center",
-  fontSize: "2.1rem",
-  textTransform: "uppercase",
-  color: "#0a2640",
-});
+const Title = styled.h1`
+  text-align: center;
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  color: #0a2640;
+
+  @media screen and (max-width: 767px) {
+    padding-bottom: 5%;
+    font-size: 2rem;
+  }
+`;
 
 const Team = () => {
   return (
