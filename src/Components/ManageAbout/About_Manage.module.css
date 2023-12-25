@@ -8,6 +8,7 @@
   align-items: center;
   gap: 50px;
   flex-wrap: wrap;
+  
 }
 
 .about_us_content {
@@ -52,5 +53,8 @@
 @media screen and (max-width: 767px) {
   .about_us_wripper {
     gap: 20px;
+  }
+  .about_us {
+    padding: 2.5rem 3%;
   }
 }
