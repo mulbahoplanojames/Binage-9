@@ -6,7 +6,7 @@
   font-size: 2.8rem;
   color: #0a2640;
   padding-bottom: 1.8rem;
-  line-height: 3.5rem;
+  line-height: 2.5rem;
   font-weight: 520;
 }
 
@@ -43,17 +43,24 @@
 }
 
 @media screen and (max-width: 767px) {
+  #hero {
+    padding: 2.5rem 2%;
+  }
+
   .hero_wripper {
     flex-direction: column-reverse;
     gap: 35px;
   }
   .hero_content {
-    width: 360px;
+    width: 350px;
   }
   .image_content {
     height: 50vh;
   }
   .title {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
+  }
+  .description {
+    font-size: 1.1rem;
   }
 }
