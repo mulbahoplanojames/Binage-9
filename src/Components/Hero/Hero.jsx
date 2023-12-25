@@ -24,7 +24,7 @@ const Hero = () => {
             </h1>
             <p className={Styles.description}>
               Manage makes it simple for software teams to plan day-to-day tasks
-              while keeping the larger team goals in view.
+              while keeping the larger team goals in view..
             </p>
 
             <Link to="/account_opt">
