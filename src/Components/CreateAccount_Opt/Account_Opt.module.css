@@ -1,0 +1,34 @@
+.option {
+  padding: 4% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option_wripper {
+  padding: 4% 2%;
+  background: #ffffff;
+  width: 370px;
+  box-shadow: 4px 4px 3px 4px gray;
+}
+
+.img_wripper {
+  width: 200px;
+  height: 180px;
+  background: green;
+  margin: 2% auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .option {
+    padding: 16% 3%;
+  }
+}

@@ -1,0 +1,53 @@
+.product_cards_wripper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-bottom: 8%;
+}
+
+.Card_wripper {
+  padding: 6% 4%;
+  background: #0a2640;
+  width: 350px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s ease-in;
+}
+
+.Card_wripper2 {
+  background: #ed017f;
+}
+
+.Card_wripper:hover {
+  transform: translateY(-20px);
+}
+
+.icon_wripper {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 1.3rem;
+  padding-bottom: 2%;
+}
+
+.title,
+.description {
+  color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+}

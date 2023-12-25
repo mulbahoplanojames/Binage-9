@@ -1,0 +1,96 @@
+.main_title {
+  padding: 6% 0px 1.5% 6%;
+}
+
+.individual,
+.team {
+  font-size: 2rem;
+  font-weight: 450;
+  color: #0a2640;
+}
+
+.team {
+  padding-left: 35%;
+}
+
+.trial {
+  background: #ed017f;
+  padding: 3px 8px;
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 0.7rem;
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+  animation: aminate 0.9s infinite;
+}
+
+@keyframes aminate {
+  0% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1.01);
+  }
+  80% {
+    transform: scale(1.05);
+  }
+}
+
+.card_wripper {
+  width: 270px;
+  padding: 1.4rem 1.2rem;
+  border-radius: 10px;
+  border-top: 8px solid #ed017f;
+  box-shadow: 3px 4px 4px 4px lightgrey;
+}
+
+.title {
+  font-size: 1.4rem;
+  padding-bottom: 7%;
+}
+
+.description {
+  padding-bottom: 7%;
+  opacity: 0.6;
+}
+
+.price {
+  padding: 6% 0px 12% 0px;
+  font-size: 2.5rem;
+}
+
+.plan_title {
+  text-transform: uppercase;
+  padding-bottom: 2%;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.plan {
+  padding: 2% 0px;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: #ed017f;
+  padding-right: 3%;
+  font-size: 1.6rem;
+}
+
+.btn_wripper {
+  margin-top: 15%;
+}
+
+@media screen and (max-width: 767px) {
+  .team {
+    padding-left: 5%;
+    padding-top: 8%;
+  }
+
+  .main_title {
+    padding: 12% 0px 6% 6%;
+  }
+}

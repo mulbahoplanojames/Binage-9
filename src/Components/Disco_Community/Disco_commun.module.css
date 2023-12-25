@@ -1,0 +1,47 @@
+.disco_community {
+  padding: 5% 2%;
+}
+
+.disco_commun_wirpper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.disco_commun_content {
+  width: 550px;
+  padding: 3% 2%;
+  border-radius: 10px;
+}
+
+.disco_commun_content2 {
+  padding: 0px;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description {
+  opacity: 0.7;
+  padding-bottom: 5%;
+}
+
+@media screen and (max-width: 767px) {
+  .disco_commun_wirpper {
+    flex-direction: column-reverse;
+    padding: 3% 1% 18% 1%;
+  }
+  .disco_commun_content {
+    width: 350px;
+  }
+  .disco_commun_content2 {
+    height: 40vh;
+  }
+}

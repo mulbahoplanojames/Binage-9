@@ -1,0 +1,38 @@
+.jobs_card_wripper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 3% 0px 5% 0px;
+}
+
+.card_wripper {
+  padding: 2.6% 2%;
+  background: gray;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+}
+
+.job_name {
+  color: #0a2640;
+  font-size: 1.6rem;
+  padding-bottom: 5%;
+}
+
+.jod_description {
+  color: #ffffff;
+  font-size: 1.05rem;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 767px) {
+  .card_wripper {
+    padding: 6% 1.4%;
+  }
+  .jobs_card_wripper {
+    gap: 25px;
+    padding: 10% 2% 3% 2%;
+  }
+}
