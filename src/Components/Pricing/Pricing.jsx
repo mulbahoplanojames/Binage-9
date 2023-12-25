@@ -57,7 +57,7 @@ const Pricing = () => {
             planTitle={"Everything in Pro, plus"}
             plan1={"80 GB Disk Space"}
             plan2={"24/7 Tech Support"}
-            plan3={"Email Support"}
+            plan3={"Email Support!"}
           />
 
           <Pricing_card
