@@ -3,12 +3,16 @@ import Styles from "/src/Components/ManageAbout/About_Manage.module.css";
 import styled from "styled-components";
 import Content_wripper from "./Content_wripper";
 
-const Title = styled.h1({
-  fontSize: "2.5rem",
-  lineHeight: "3rem",
-  paddingBottom: "1.3rem",
-  color: "#0a2640",
-});
+const Title = styled.h1`
+  font-size: 2.5rem;
+  line-height: 2.3rem;
+  padding-bottom: 1.3rem;
+  color: #0a2640;
+
+  @media screen and (max-width: 767px) {
+    font-size: 1.9rem;
+  }
+`;
 
 const Description = styled.p({
   fontSize: "1.1rem",
@@ -25,7 +29,7 @@ const About_Us = () => {
             <Description>
               Manage provides all the functionality your team needs, without the
               complexity. Our software is tailor-made for modern digital product
-              teams.
+              teams..
             </Description>
           </div>
           <div className={Styles.about_us_content}>
