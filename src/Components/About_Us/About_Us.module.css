@@ -41,19 +41,24 @@
 }
 
 @media screen and (max-width: 767px) {
+  #about_us {
+    padding: 5% 3%;
+  }
   .about_us_wripper {
     flex-direction: column-reverse;
     gap: 30px;
     padding-bottom: 13%;
   }
   .about_us_content {
-    width: 350px;
+    width: 330px;
   }
   .content_two {
-    width: 350px;
+    width: 330px;
     height: 50vh;
   }
   .title {
+    font-size: 2rem;
     padding-bottom: 8%;
+    line-height: 2.5rem;
   }
 }
