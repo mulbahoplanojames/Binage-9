@@ -12,6 +12,8 @@ const Title = styled.h1({
   paddingBottom: "4%",
 });
 
+
+
 const Disco_comm = () => {
   return (
     <>
