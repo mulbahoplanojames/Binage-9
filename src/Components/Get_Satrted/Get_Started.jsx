@@ -34,7 +34,7 @@ const Get_Started = () => {
     <>
       <Get_staetrd_wripper>
         <Title>
-          Simplify how your team <br /> works today.
+          Simplify how your team <br /> works today..
         </Title>
 
         <Link to="/account_opt">
