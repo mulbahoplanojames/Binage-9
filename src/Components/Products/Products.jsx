@@ -15,7 +15,7 @@ import {
 const Title = styled.h1`
   padding: 6% 0px 4% 0px;
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   text-transform: uppercase;
   color: #0a2640;
 
@@ -28,29 +28,31 @@ const Title = styled.h1`
 const Products = () => {
   return (
     <>
-      <Title>Our Products</Title>
+      <div className={Styles.products}>
+        <Title>Our Products.</Title>
 
-      <div className={Styles.product_cards_wripper}>
-        <a href="/" className={Styles.link}>
-          <Products_card Icon={<BsCodeSquare className={Styles.icon} />} />
-        </a>
-        <a href="/" className={Styles.link}>
-          <Product_card2 Icon={<LuPalette className={Styles.icon} />} />
-        </a>
-        <a href="/" className={Styles.link}>
-          <Products_card Icon={<BsLightbulb className={Styles.icon} />} />
-        </a>
-        <a href="/" className={Styles.link}>
-          <Product_card2 Icon={<BsStack className={Styles.icon} />} />
-        </a>
-        <a href="/" className={Styles.link}>
-          <Products_card Icon={<BsCaretUpSquare className={Styles.icon} />} />
-        </a>
-        <a href="/" className={Styles.link}>
-          <Product_card2
-            Icon={<BsFillRocketTakeoffFill className={Styles.icon} />}
-          />
-        </a>
+        <div className={Styles.product_cards_wripper}>
+          <a href="/" className={Styles.link}>
+            <Products_card Icon={<BsCodeSquare className={Styles.icon} />} />
+          </a>
+          <a href="/" className={Styles.link}>
+            <Product_card2 Icon={<LuPalette className={Styles.icon} />} />
+          </a>
+          <a href="/" className={Styles.link}>
+            <Products_card Icon={<BsLightbulb className={Styles.icon} />} />
+          </a>
+          <a href="/" className={Styles.link}>
+            <Product_card2 Icon={<BsStack className={Styles.icon} />} />
+          </a>
+          <a href="/" className={Styles.link}>
+            <Products_card Icon={<BsCaretUpSquare className={Styles.icon} />} />
+          </a>
+          <a href="/" className={Styles.link}>
+            <Product_card2
+              Icon={<BsFillRocketTakeoffFill className={Styles.icon} />}
+            />
+          </a>
+        </div>
       </div>
     </>
   );
