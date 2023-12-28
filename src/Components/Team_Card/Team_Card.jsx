@@ -8,7 +8,9 @@ const Team_Card = (props) => {
   return (
     <>
       <div className={Styles.card_wripper}>
-        <div className={Styles.image_wripper}>{image}</div>
+        <div className={Styles.image_wripper}>
+          <img src={image} className={Styles.img} />
+        </div>
         <div className={Styles.body}>
           <p className={Styles.name}>{name}</p>
           <p className={Styles.position}>{position}</p>
