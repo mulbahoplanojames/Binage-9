@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 import Styles from "/src/Layouts/Navbar/Navbar.module.css";
 import Nav_Button from "../../UI/Nav_Button/Nav_Button";
 import { Link } from "react-router-dom";
 import { MdOutlineMenu, MdOutlineCancel } from "react-icons/md";
+import Navlinks from "../../Constant/Constant";
 
 const Logo = styled.nav({
   fontSize: "2.1rem",
@@ -50,21 +51,13 @@ const Navbar = () => {
 
           <div className={Styles.nav_links} style={navLinksStyle}>
             <ul>
-              <li>
-                <Link to="/pricing">Pricing</Link>
-              </li>
-              <li>
-                <Link to="/product">Product</Link>
-              </li>
-              <li>
-                <Link to="/about">About Us</Link>
-              </li>
-              <li>
-                <Link to="/carrer">Careers</Link>
-              </li>
-              <li>
-                <Link to="/community">Community</Link>
-              </li>
+              {Navlinks.map((navlink) => {
+                return (
+                  <li key={navlink.label}>
+                    <Link to={navlink.href}>{navlink.label}</Link>
+                  </li>
+                );
+              })}
 
               <Link to="/account_opt">
                 <Nav_Button />
