@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./Layouts/Navbar/Navbar";
 import Home from "./Pages/Home";
 import Price from "./Pages/Price.jsx";

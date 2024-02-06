@@ -1,4 +1,3 @@
-import React from "react";
 import Hero from "/src/Components/Hero/Hero.jsx";
 import About_Us from "../Components/ManageAbout/About_Manage";
 import Testimonial from "../Components/Testimonial/Testimonial";

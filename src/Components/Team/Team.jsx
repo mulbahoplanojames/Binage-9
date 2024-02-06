@@ -1,11 +1,6 @@
-import React from "react";
 import styled from "styled-components";
 import Styles from "/src/Components/Team_Card/Team_Card.module.css";
 import Team_Card from "../Team_Card/Team_Card";
-import Team1 from "/src/assets/Images/oplano.jpeg.jpg";
-import Team2 from "/src/assets/Images/stephen.jpg";
-import Team3 from "/src/assets/Images/wilma.jpg";
-import Team4 from "/src/assets/Images/Img5.jpg";
 import team_data from "../../Data/TeamData/TeamData";
 
 const Title = styled.h1`

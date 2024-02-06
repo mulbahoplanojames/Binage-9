@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 const Card_Wripper = styled.div({
@@ -37,7 +36,9 @@ const Client_Card = (props) => {
   return (
     <>
       <Card_Wripper>
-        <Client_img>{client_img}</Client_img>
+        <Client_img>
+          <img src={client_img} style={{ width: "100%", height: "100%" }} />
+        </Client_img>
         <Client_name>{client_name}</Client_name>
         <Client_Testimonial>{client_testimonial}</Client_Testimonial>
       </Card_Wripper>
