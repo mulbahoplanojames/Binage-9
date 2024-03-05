@@ -54,7 +54,9 @@ const Navbar = () => {
               {Navlinks.map((navlink) => {
                 return (
                   <li key={navlink.label}>
-                    <Link to={navlink.href}>{navlink.label}</Link>
+                    <Link to={navlink.href} onClick={hideMenu}>
+                      {navlink.label}
+                    </Link>
                   </li>
                 );
               })}
