@@ -4,7 +4,6 @@ const Navlinks = [
   { href: "/about", label: "About" },
   { href: "/carrer", label: "Carrer" },
   { href: "/community", label: "Commuity" },
-  { href: "/carrer", label: "Carrer" },
 ];
 
 export default Navlinks;
