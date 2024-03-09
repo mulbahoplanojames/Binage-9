@@ -1,5 +1,6 @@
 .sign_up {
   padding: 4% 2%;
+  margin-top: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,5 +124,6 @@
 @media screen and (max-width: 767px) {
   .sign_up {
     padding: 16% 4%;
+    margin-top: 3rem;
   }
 }

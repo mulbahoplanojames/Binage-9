@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5rem;
 }
 
 .option_wripper {
@@ -30,5 +31,6 @@
 @media screen and (max-width: 767px) {
   .option {
     padding: 16% 3%;
+    margin-top: 3rem;
   }
 }
