@@ -61,7 +61,7 @@ const Navbar = () => {
                 );
               })}
 
-              <Link to="/account_opt">
+              <Link to="/accountoption">
                 <Nav_Button />
               </Link>
             </ul>

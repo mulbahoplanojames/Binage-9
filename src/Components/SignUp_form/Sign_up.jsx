@@ -35,6 +35,7 @@ const Sign_up = () => {
               <input
                 type="text"
                 value={name}
+                required
                 onChange={(e) => setName(e.target.value)}
                 className={Styles.input}
               />
@@ -46,6 +47,7 @@ const Sign_up = () => {
               <input
                 type="email"
                 value={email}
+                required
                 onChange={(e) => setEmail(e.target.value)}
                 className={Styles.input}
               />
@@ -57,6 +59,7 @@ const Sign_up = () => {
               <input
                 type="tel"
                 value={phone}
+                required
                 onChange={(e) => setPhone(e.target.value)}
                 className={Styles.input}
               />
@@ -68,6 +71,7 @@ const Sign_up = () => {
               <input
                 type="password"
                 value={password}
+                required
                 onChange={(e) => setPassword(e.target.value)}
                 className={Styles.input}
               />

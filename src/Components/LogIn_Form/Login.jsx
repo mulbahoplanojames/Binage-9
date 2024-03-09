@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Styles from "/src/Components/SignUp_form/signUp.module.css";
 import LogIn_Button from "../../UI/Login_Button/LogIn_Button";
 import { FaGooglePlus, FaFacebook, FaTwitterSquare } from "react-icons/fa";
@@ -16,7 +16,7 @@ const Login = () => {
 
   return (
     <>
-      <div className={Styles.sign_up}>
+      <section className={Styles.sign_up}>
         <div className={Styles.signUp_wripper}>
           <h1 className={Styles.title}>Log In</h1>
           <p className={Styles.description}>Welcome back, we had missed you!</p>
@@ -29,6 +29,7 @@ const Login = () => {
               <input
                 type="email"
                 value={email}
+                required
                 onChange={(e) => setEmail(e.target.value)}
                 className={Styles.input}
               />
@@ -41,14 +42,15 @@ const Login = () => {
               <input
                 type="password"
                 value={password}
+                required
                 onChange={(e) => setPassword(e.target.value)}
                 className={Styles.input}
               />
             </div>
 
-            <a href="/" className={Styles.forget_password}>
+            <Link to="/" className={Styles.forget_password}>
               Forget Password
-            </a>
+            </Link>
 
             <LogIn_Button />
 
@@ -59,20 +61,20 @@ const Login = () => {
             </div>
 
             <div className={`${Styles.icon_wripper} ${Styles.icon_wripper2}`}>
-              <a href="/">
+              <Link onTouchCancelCapture="/">
                 <FaGooglePlus className={Styles.icon} />
-              </a>
-              <a href="/">
+              </Link>
+              <Link onTouchCancelCapture="/">
                 <FaFacebook className={Styles.icon} />
-              </a>
-              <a href="/">
+              </Link>
+              <Link onTouchCancelCapture="/">
                 <FaTwitterSquare className={Styles.icon} />
-              </a>
+              </Link>
             </div>
 
             <div>
               <span className={Styles.span3}>
-                Haven't signed up yet?
+                Haven&apos;t signed up yet?
                 <Link to="/signUp" className={Styles.link}>
                   Sign Up
                 </Link>
@@ -80,7 +82,7 @@ const Login = () => {
             </div>
           </form>
         </div>
-      </div>
+      </section>
     </>
   );
 };

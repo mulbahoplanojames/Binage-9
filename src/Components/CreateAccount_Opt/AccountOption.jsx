@@ -1,5 +1,4 @@
-import React from "react";
-import Styles from "/src/Components/CreateAccount_Opt/Account_Opt.module.css";
+import Styles from "/src/Components/CreateAccount_Opt/AccountOption.module.css";
 import SignUp_Button from "../../UI/Sign_up_Button/SignUp_Button";
 import LogIn_Button from "../../UI/Login_Button/LogIn_Button";
 import styled from "styled-components";
@@ -15,10 +14,10 @@ const Title = styled.h1({
   paddingBottom: "5rem",
 });
 
-const Account_Option = () => {
+const AccountOption = () => {
   return (
     <>
-      <div className={Styles.option}>
+      <section className={Styles.option}>
         <div className={Styles.option_wripper}>
           <div className={Styles.img_wripper}>
             <img src={Img} alt="Illustration" className={Styles.img} />
@@ -34,9 +33,9 @@ const Account_Option = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
 
-export default Account_Option;
+export default AccountOption;
