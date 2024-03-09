@@ -1,4 +1,3 @@
-import React from "react";
 import Styles from "/src/Components/Disco_Community/Disco_commun.module.css";
 import styled from "styled-components";
 import Team from "/src/assets/Images/developers.jpeg";
@@ -11,8 +10,6 @@ const Title = styled.h1({
   color: "#0a2640",
   paddingBottom: "4%",
 });
-
-
 
 const Disco_comm = () => {
   return (

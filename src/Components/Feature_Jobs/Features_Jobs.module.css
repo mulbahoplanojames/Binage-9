@@ -1,5 +1,5 @@
 .feature_jod {
-  padding: 0px 2.5% 9% 2.5%;
+  padding: 6rem 2.5% 9% 2.5%;
 }
 
 .jobs_card_wripper {
@@ -32,6 +32,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  .feature_jod {
+    padding-top: 5rem;
+  }
   .card_wripper {
     padding: 10% 3%;
     width: 330px;
