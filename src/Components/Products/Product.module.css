@@ -1,3 +1,7 @@
+.products {
+  margin-top: 6rem;
+}
+
 .product_cards_wripper {
   display: flex;
   justify-content: center;
@@ -55,6 +59,7 @@
 @media screen and (max-width: 767px) {
   .products {
     padding: 0px 3%;
+    margin-top: 4rem;
   }
   .Card_wripper {
     width: 330px;

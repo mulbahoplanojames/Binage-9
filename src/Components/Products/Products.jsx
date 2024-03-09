@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import Styles from "/src/Components/Products/Product.module.css";
 import Products_card from "./Product_Card/Products_card";
@@ -11,6 +10,7 @@ import {
   BsCaretUpSquare,
   BsFillRocketTakeoffFill,
 } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Title = styled.h1`
   padding: 6% 0px 4% 0px;
@@ -28,32 +28,32 @@ const Title = styled.h1`
 const Products = () => {
   return (
     <>
-      <div className={Styles.products}>
+      <section className={Styles.products}>
         <Title>Our Products.</Title>
 
         <div className={Styles.product_cards_wripper}>
-          <a href="/" className={Styles.link}>
+          <Link to="/" className={Styles.link}>
             <Products_card Icon={<BsCodeSquare className={Styles.icon} />} />
-          </a>
-          <a href="/" className={Styles.link}>
+          </Link>
+          <Link to="/" className={Styles.link}>
             <Product_card2 Icon={<LuPalette className={Styles.icon} />} />
-          </a>
-          <a href="/" className={Styles.link}>
+          </Link>
+          <Link to="/" className={Styles.link}>
             <Products_card Icon={<BsLightbulb className={Styles.icon} />} />
-          </a>
-          <a href="/" className={Styles.link}>
+          </Link>
+          <Link to="/" className={Styles.link}>
             <Product_card2 Icon={<BsStack className={Styles.icon} />} />
-          </a>
-          <a href="/" className={Styles.link}>
+          </Link>
+          <Link to="/" className={Styles.link}>
             <Products_card Icon={<BsCaretUpSquare className={Styles.icon} />} />
-          </a>
-          <a href="/" className={Styles.link}>
+          </Link>
+          <Link to="/" className={Styles.link}>
             <Product_card2
               Icon={<BsFillRocketTakeoffFill className={Styles.icon} />}
             />
-          </a>
+          </Link>
         </div>
-      </div>
+      </section>
     </>
   );
 };
