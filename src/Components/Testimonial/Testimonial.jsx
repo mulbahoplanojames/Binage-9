@@ -2,6 +2,7 @@ import styled from "styled-components";
 import ButtonMain from "/src/UI/Buttons/ButtonMian.jsx";
 import Client_Card from "./ClientCard/Client_Card";
 import clientTestimonial from "../../Data/ClientData/ClientData";
+import { Link } from "react-router-dom";
 
 const Testimonaial = styled.div({
   padding: "2rem 0px",
@@ -50,9 +51,9 @@ const Testimonial = () => {
         </Testimonaial_Wripper>
 
         <Button_wripper>
-          <a href="/">
+          <Link to="/">
             <ButtonMain />
-          </a>
+          </Link>
         </Button_wripper>
       </Testimonaial>
     </>

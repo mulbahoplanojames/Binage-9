@@ -4,6 +4,11 @@
   align-items: center;
   padding: 2% 6%;
   box-shadow: 2px 3px 4px 4px lightgray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 2;
 }
 
 .nav_links {

@@ -3,7 +3,7 @@ import Styles from "/src/Components/Pricing/Pricing.module.css";
 import styled from "styled-components";
 import Pricing_card from "./Pricing_Card/Pricing_card";
 
-const Pricing_Card_Wripper = styled.div({
+const PricingCardWripper = styled.div({
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
@@ -15,14 +15,14 @@ const Pricing_Card_Wripper = styled.div({
 const Pricing = () => {
   return (
     <>
-      <div className={Styles.pricing}>
+      <section className={Styles.pricing}>
         <div className={Styles.main_title}>
           <span className={Styles.individual}>For Indevidual</span>
           <span className={Styles.team}>For Teams</span>
           <span className={Styles.trial}>Now in Beta: Free for 30 days</span>
         </div>
 
-        <Pricing_Card_Wripper>
+        <PricingCardWripper>
           <Pricing_card
             title={"Pro"}
             description={
@@ -71,8 +71,8 @@ const Pricing = () => {
             plan2={"24/7 Tech Support"}
             plan3={"Email Support"}
           />
-        </Pricing_Card_Wripper>
-      </div>
+        </PricingCardWripper>
+      </section>
     </>
   );
 };
