@@ -1,7 +1,6 @@
-import React from "react";
-import Styles from "/src/Components/ManageAbout/About_Manage.module.css";
+import Styles from "/src/Components/ManageAbout/AboutManage.module.css";
 import styled from "styled-components";
-import Content_wripper from "./Content_wripper";
+import Contentwripper from "./Contentwripper";
 
 const Title = styled.h1`
   font-size: 2.5rem;
@@ -19,7 +18,7 @@ const Description = styled.p({
   opacity: ".8",
 });
 
-const About_Us = () => {
+const AboutUs = () => {
   return (
     <>
       <div className={Styles.about_us}>
@@ -33,21 +32,21 @@ const About_Us = () => {
             </Description>
           </div>
           <div className={Styles.about_us_content}>
-            <Content_wripper
+            <Contentwripper
               num={"01"}
               title={"Track company-wide progress"}
               description={
                 "See how your day-to-day tasks fit into the wider visio. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again."
               }
             />
-            <Content_wripper
+            <Contentwripper
               num={"02"}
               title={"Advanced built-in reports"}
               description={
                 "Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed."
               }
             />
-            <Content_wripper
+            <Contentwripper
               num={"03"}
               title={"Everything you need in one place"}
               description={
@@ -61,4 +60,4 @@ const About_Us = () => {
   );
 };
 
-export default About_Us;
+export default AboutUs;

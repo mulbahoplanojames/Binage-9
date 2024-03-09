@@ -7,7 +7,7 @@ import Carrer from "./Pages/Carrer.jsx";
 import Community from "./Pages/Community.jsx";
 import Footer from "./Layouts/Footer/Footer.jsx";
 import AccountOption from "./Components/CreateAccount_Opt/AccountOption.jsx";
-import Sign_up from "./Components/SignUp_form/Sign_up.jsx";
+import Signup from "./Components/SignUp_form/Signup.jsx";
 import Login from "./Components/LogIn_Form/Login.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -24,7 +24,7 @@ const App = () => {
           <Route path="/carrer" element={<Carrer />} />
           <Route path="/community" element={<Community />} />
           <Route path="/accountoption" element={<AccountOption />} />
-          <Route path="/signUp" element={<Sign_up />} />
+          <Route path="/signUp" element={<Signup />} />
           <Route path="/logIn" element={<Login />} />
         </Routes>
         <Footer />
