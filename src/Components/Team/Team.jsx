@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import Styles from "/src/Components/Team_Card/Team_Card.module.css";
-import Team_Card from "../Team_Card/Team_Card";
+import Team_Card from "../TeamCard/TeamCard";
 import team_data from "../../Data/TeamData/TeamData";
 
 const Title = styled.h1`
@@ -15,12 +14,21 @@ const Title = styled.h1`
   }
 `;
 
+const TeamCardWripper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 6% 0px 4% 0px;
+`;
+
 const Team = () => {
   return (
     <>
       <Title>Our Team</Title>
 
-      <div className={Styles.our_team_wripper}>
+      <TeamCardWripper>
         {team_data.map((data, i) => {
           return (
             <Team_Card
@@ -32,7 +40,7 @@ const Team = () => {
             />
           );
         })}
-      </div>
+      </TeamCardWripper>
     </>
   );
 };
