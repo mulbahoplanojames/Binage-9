@@ -1,12 +1,3 @@
-.our_team_wripper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 50px;
-  padding: 6% 0px 4% 0px;
-}
-
 .card_wripper {
   background: transparent;
   box-shadow: 4px 4px 4px gray;
