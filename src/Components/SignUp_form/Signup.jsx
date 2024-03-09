@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Styles from "/src/Components/SignUp_form/signUp.module.css";
 import SignUp_Button from "../../UI/Sign_up_Button/SignUp_Button";
 import { FaGooglePlus, FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
 
-const Sign_up = () => {
+const Signup = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -16,6 +17,12 @@ const Sign_up = () => {
     setEmail("");
     setPhone("");
     setPassword("");
+
+    Swal.fire({
+      title: "Sign Up Successful!",
+      text: "🥳🎊🎈🌟",
+      icon: "success",
+    });
   };
 
   return (
@@ -116,4 +123,4 @@ const Sign_up = () => {
   );
 };
 
-export default Sign_up;
+export default Signup;

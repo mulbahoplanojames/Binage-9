@@ -1,5 +1,6 @@
 #hero {
   padding: 2.5rem 0px;
+  margin-top: 5rem;
 }
 
 .title {
@@ -45,6 +46,7 @@
 @media screen and (max-width: 767px) {
   #hero {
     padding: 2.5rem 2%;
+    margin-top: 1rem;
   }
 
   .hero_wripper {

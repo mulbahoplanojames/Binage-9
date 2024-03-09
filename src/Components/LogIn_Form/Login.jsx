@@ -3,6 +3,7 @@ import Styles from "/src/Components/SignUp_form/signUp.module.css";
 import LogIn_Button from "../../UI/Login_Button/LogIn_Button";
 import { FaGooglePlus, FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -12,6 +13,12 @@ const Login = () => {
     e.preventDefault();
     setEmail("");
     setPassword("");
+
+    Swal.fire({
+      title: "Login Successful!",
+      text: "🥳🎊🎈🌟",
+      icon: "success",
+    });
   };
 
   return (

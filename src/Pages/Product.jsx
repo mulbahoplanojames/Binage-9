@@ -1,6 +1,6 @@
 import React from "react";
 import Products from "../Components/Products/Products";
-import About_Us from "../Components/ManageAbout/About_Manage";
+import About_Us from "../Components/ManageAbout/AboutManage";
 
 const Product = () => {
   return (

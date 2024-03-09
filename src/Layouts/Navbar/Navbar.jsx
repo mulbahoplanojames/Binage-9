@@ -61,7 +61,7 @@ const Navbar = () => {
                 );
               })}
 
-              <Link to="/accountoption">
+              <Link to="/accountoption" onClick={hideMenu}>
                 <Nav_Button />
               </Link>
             </ul>

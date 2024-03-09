@@ -1,7 +1,6 @@
-import React from "react";
-import styles from "/src/Components/ManageAbout/About_Manage.module.css";
+import styles from "/src/Components/ManageAbout/AboutManage.module.css";
 
-const Content_wripper = (props) => {
+const Contentwripper = (props) => {
   const { num, title, description } = props;
 
   return (
@@ -19,4 +18,4 @@ const Content_wripper = (props) => {
   );
 };
 
-export default Content_wripper;
+export default Contentwripper;
