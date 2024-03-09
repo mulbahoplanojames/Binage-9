@@ -1,5 +1,5 @@
 .disco_community {
-  padding: 5% 2%;
+  padding: 10rem 2% 10% 2%;
 }
 
 .disco_commun_wirpper {
@@ -34,6 +34,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  .disco_community {
+    padding-top: 5rem;
+  }
   .disco_commun_wirpper {
     flex-direction: column-reverse;
     padding: 3% 1% 18% 1%;
