@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 import Styles from "/src/Layouts/Footer/Footer.module.css";
 import { Link } from "react-router-dom";
