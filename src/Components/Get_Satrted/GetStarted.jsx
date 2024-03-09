@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import GetStarted_Btn from "../../UI/Buttons/GetStarted_Btn";
 import { Link } from "react-router-dom";
@@ -14,7 +13,7 @@ const Title = styled.h1`
   }
 `;
 
-const Get_staetrd_wripper = styled.div`
+const Getstartedwripper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,20 +28,20 @@ const Get_staetrd_wripper = styled.div`
   }
 `;
 
-const Get_Started = () => {
+const GetStarted = () => {
   return (
     <>
-      <Get_staetrd_wripper>
+      <Getstartedwripper>
         <Title>
           Simplify how your team <br /> works today..
         </Title>
 
-        <Link to="/account_opt">
+        <Link to="/accountoption">
           <GetStarted_Btn />
         </Link>
-      </Get_staetrd_wripper>
+      </Getstartedwripper>
     </>
   );
 };
 
-export default Get_Started;
+export default GetStarted;

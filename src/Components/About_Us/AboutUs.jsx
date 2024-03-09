@@ -1,7 +1,7 @@
-import Styles from "/src/Components/About_Us/About_Us.module.css";
+import Styles from "/src/Components/About_Us/AboutUs.module.css";
 import TeamImg from "/src/assets/Images/team.jpg";
 
-const About_Us = () => {
+const AboutUs = () => {
   return (
     <>
       <section id={Styles.about_us}>
@@ -26,4 +26,4 @@ const About_Us = () => {
   );
 };
 
-export default About_Us;
+export default AboutUs;
