@@ -27,4 +27,4 @@ Could you include screenshots or images of your application here?
 
 - Icons used for this project can be found in the [react-icons](https://react-icons.github.io/react-icons/) library.
 
-Feel free to customize and enhance this README according to your project requirements.
+
