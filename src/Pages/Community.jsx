@@ -1,4 +1,4 @@
-import Disco_comm from "../Components/Disco_Community/Disco_comm";
+import Disco_comm from "../Components/Disco_Community/DiscoCommunity";
 import Team from "../Components/Team/Team";
 import Get_Started from "../Components/Get_Satrted/GetStarted";
 
