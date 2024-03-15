@@ -1,4 +1,4 @@
-import Styles from "/src/Components/Disco_Community/DiscoCommun.module.css";
+import Styles from "/src/Components/Disco Community/DiscoCommun.module.css";
 import styled from "styled-components";
 import Team from "/src/assets/Images/developers.jpeg";
 import Disco_Button from "../../UI/Buttons/Disco_Button";
