@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Main = styled.div({
-	margin: "14rem 0px 10rem 0px",
+	margin: "12rem 0px 4rem 0px",
 	textAlign: "center",
 });
 
