@@ -11,7 +11,7 @@
 
 - React
 - react-router-dom
-- 
+- Animate.css
 
 ## Getting Started
 
