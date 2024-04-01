@@ -1,5 +1,7 @@
 # Binage!9
 
+This repository is for a web app that for a virtual company that is involve in developing web site and web applications for clients for a reasonable price and their work is done effectively
+
 ## Features
 
 - Display the pricing of each course
